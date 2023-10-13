@@ -1,0 +1,189 @@
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black
+}
+
+.first-container {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    height: 49px;
+    
+}
+.first-container h2{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: smaller;
+    margin-top: 5px;
+    font-weight: 700;
+}
+.text1{
+    margin-top: 20px;
+    margin-top: -80px;
+   
+}
+.text2 {
+    margin-top: -30px;
+    
+   
+    
+}
+
+
+@keyframes text1Animation {
+
+    25%, 75% {
+        opacity: 0;
+    }
+    0%, 100% {
+        opacity: 1;
+    }
+    
+}
+
+ @keyframes text2Animation {
+    0%, 100% {
+        opacity: 0;
+    }
+    25%, 75% {
+        opacity: 1;
+    }
+}
+
+.text1, .text2 {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.text1 {
+    animation-name: text1Animation;
+}
+.text2 {
+    animation-name: text2Animation;
+} 
+
+
+.navbar a {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+}
+ .brand {
+   
+    text-align: center;
+    height: 30px;
+    margin-left: 40px;
+    margin-right: -70px
+}
+.brand-text{
+    color: black;
+    margin-top: -40px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    
+}
+
+#navbarNav {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    padding-top: 10px;
+}
+
+.icon{
+    width: 20px;
+    font-size: 20px;
+    /* display: flex; */
+    /* margin-left: 60px; */
+}
+.whole{
+    justify-content: space-between;
+    height: 70px;
+}
+
+@media screen and (max-width:768px) {
+
+}
+@media screen and (max-width:900px){
+
+}
+@media screen and (max-width:1440px){
+    .first-container {
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 44px;
+        width: 49rem;
+    } 
+    .brand {
+        text-align: center;
+        height: 30px;
+        margin-left: 50px;
+        margin-right: -90px
+    }
+
+    #navbarNav {
+   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 180px;
+        padding-top: 10px;
+    }
+}
+
+
+.section1{
+    background-color: red;
+    height: 700px;
+}
+
+.text{
+    width: 300px;
+    justify-content: center;
+    margin-left: -90px;
+    padding-top: 20rem;
+    margin-left: 35rem;
+    position: relative;
+     z-index: 2; 
+     
+}
+.button{
+    padding: 10px;
+    justify-content: center;
+    margin-left: 80px;
+    color: white;
+}
+.image{
+    background-color: blue;
+    display: flex;
+}
+
+.image1{
+    margin-top: -30.9rem;
+    background-color: green;
+     display: flex; 
+     height: 701px;
+     flex: 2;
+}
+
+.image1 img{
+    max-width: 100%;
+    height: 701px;
+}
+.man1{
+    width: 43rem;
+}
+.man2{
+    width: 43rem;
+}
